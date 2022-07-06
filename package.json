@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/DocxpressoSDK/SDK_node#readme",
   "dependencies": {
-    "crypto": "^1.0.1"
   }
 }
