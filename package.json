@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/DocxpressoSDK/SDK_node.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Docxpresso",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DocxpressoSDK/SDK_node/issues"
   },

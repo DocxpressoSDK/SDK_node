@@ -2,7 +2,7 @@ var Util = require('./index');
 var Utils = Util.DOCXPRESSO_SDK;
 
 
-var util1 = new Utils({pKey:'ca0d6f3ce2c47993e0e1a67f38cdb6b4b1d1fcbdca0d6f3ce2c47993e0e1a67f',docxpressoInstallation:'https://testgit.pre.docxpresso.com'});
+var util1 = new Utils({pKey:'pkey',docxpressoInstallation:'docxpressoInstallation'});
 
 util1.apikey_control('ddssfd','abdc','abcd');
 
@@ -57,18 +57,31 @@ console.log(util1.listCategories());
 console.log(util1.documentsByCategory(6));
 
 console.log(util1.modifyPassword('gmail@gmail.com', 'password'));
+
 console.log(util1.modifySignatureProvider());
+
 console.log(util1.documentTree());
+
 console.log(util1.categoryTree());
+
 console.log(util1.templatesByName());
+
 console.log(util1.latestTemplates());
+
 console.log(util1.searchTemplatesByTag({}));
+
 console.log(util1.listTemplatesPaginated(1));
+
 console.log(util1.lastUsages());
+
 console.log(util1.lastUsedTemplates());
+
 console.log(util1.dataByTemplate({id:5}));
+
 console.log(util1.dataByTemplatePaginated(1,{id:168}));
+
 console.log(util1.getUsageDataPaginated(1,{}));
+
 console.log(util1.dataByUsage(324));
 
 console.log(util1.dataDigestByUsage({id:695, format: 'csv'}));//En PHP no funciona
