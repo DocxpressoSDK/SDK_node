@@ -1,5 +1,5 @@
 {
-  "name": "sdk_node",
+  "name": "docxpresso_sdk_node",
   "version": "1.0.0",
   "description": "SDK for Docxpresso in node.js",
   "main": "index.js",
